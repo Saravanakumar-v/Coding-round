@@ -64,7 +64,7 @@ int main()
     for(int i=0;i< row;i++) {
         vector<int> r1;
         for(int j=0;j< column;j++) {
-            int value = rand() %2 ;
+            int value = rand() %2 ;     // Enter random 0 and 1 as input into area grid
             r1.push_back(value);
         }
         area.push_back(r1);
